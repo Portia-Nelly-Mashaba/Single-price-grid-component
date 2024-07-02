@@ -1,0 +1,75 @@
+
+.App-header {
+  background-color: #e4eef5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+}
+
+.main {
+  width: 800px;
+  height: 600px;
+  display:flex; 
+  flex-direction: column;
+  background-color: #eeeeee;
+  border-radius: 12px;
+  box-shadow: 50px 60px 60px 60px rgba(187, 182, 182, 0.4);
+}
+
+.topContainer {
+  display: flex; 
+  align-items: flex-start;
+  flex-direction: column;
+  flex: 1 1;
+  padding: 18px 48px;  
+  box-sizing: border-box;
+}
+
+.bottomContainer {
+  display: flex; 
+  flex-direction: row; 
+  flex: 1.4 1;
+  width: 800px;
+  height: 500px;
+}
+
+.bottomLeft {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start;
+  background-color: #2bb3b0;
+  flex: 1 1;
+  padding: 48px; 
+  border-radius: 0 0 0 12px;
+}
+
+.bottomRight {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start; 
+  background-color: #4CC1B9; 
+  flex: 1 1;
+  padding: 48px; 
+  border-radius: 0 0 12px 0;
+}
+
+.heading {
+  color: #efefef; 
+  font-size: 18px; 
+  font-weight: bold
+}
+
+.button {
+  background-color: #BFDF32; 
+  color: #efefef;
+  border-color: #BFDF32;
+  font-size: 16px;
+  font-weight: bold; 
+  padding: 12px; 
+  border-radius: 4px;
+  width: 100%; 
+  margin-top: 24px;
+}
