@@ -1,70 +1,87 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Single Price Grid Component
 
-In the project directory, you can run:
+This is a **Single Price Grid Component** built using **React.js**. The component is a solution to the **Frontend Mentor** challenge that involves building a responsive single price grid. It displays different pricing plans for services or products, with a clean and modern layout.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### User Features:
+1. **Home Page:**
+   - Three pricing plans with details such as:
+     - Plan name (e.g., Basic, Pro, Business).
+     - Price per month.
+     - Features included in each plan.
+     - "Sign Up" button for each plan.
+   - Responsive layout that adapts to different screen sizes.
+   - Hover effects for interactive pricing cards.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. **Pricing Plans:**
+   - Each pricing card contains:
+     - Plan title.
+     - Monthly cost.
+     - Key features of the plan (e.g., storage size, number of users, data access).
+     - CTA (Call-to-action) button to sign up.
 
-### `npm test`
+3. **Responsive Design:**
+   - Fully responsive across various devices like mobile, tablet, and desktop.
+   - Organized layout that adjusts based on screen size for optimal user experience.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. **Simple and Clean Design:**
+   - Minimalistic UI with focus on clear typography and easy-to-understand pricing details.
+   - Suitable for displaying service tiers or subscription models.
 
-### `npm run build`
+### Navigation Bar:
+- Simple navigation without complex menus.
+- Links to additional sections such as Sign Up and other calls to action (depending on future expansion).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Admin Features:
+1. **Dashboard (Future Expansion):**
+   - The app can be easily extended to support an admin panel where pricing details, plans, and content can be managed dynamically.
+   
+## Technology Stack
+- **Frontend:** React.js
+- **Styling:** CSS Modules
+- **State Management:** React's useState and useEffect hooks for dynamic functionality.
+  
+## Images
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![](src/Single-grid-component.PNG)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
 
-### `npm run eject`
+To run this project locally, follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Portia-Nelly-Mashaba/Single-price-grid-component
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Navigate to the project directory:
+   ```bash
+   cd single-price-grid-component
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. Start the development server:
+   ```bash
+   npm start
+   ```
 
-## Learn More
+   The app should now be running at `http://localhost:3000` in your browser.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Usage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+You can navigate through the pricing plans and interact with the "Sign Up" buttons for each plan. The app is designed to be extended with additional functionality, such as linking each "Sign Up" button to a registration page.
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Acknowledgements:
+- **Frontend Mentor**: The challenge was provided by [Frontend Mentor](https://www.frontendmentor.io/challenges), a platform that helps developers build their front-end skills by working on real-world projects.
+  
+---
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you find this project interesting, consider using [Hix AI](https://hix.ai/chat), an excellent ChatGPT alternative, for enhanced productivity!
