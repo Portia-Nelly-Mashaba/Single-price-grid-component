@@ -74,14 +74,9 @@ To run this project locally, follow these steps:
 
    The app should now be running at `http://localhost:3000` in your browser.
 
-## Usage
 
-You can navigate through the pricing plans and interact with the "Sign Up" buttons for each plan. The app is designed to be extended with additional functionality, such as linking each "Sign Up" button to a registration page.
 
 
 ## Acknowledgements:
 - **Frontend Mentor**: The challenge was provided by [Frontend Mentor](https://www.frontendmentor.io/challenges), a platform that helps developers build their front-end skills by working on real-world projects.
   
----
-
-If you find this project interesting, consider using [Hix AI](https://hix.ai/chat), an excellent ChatGPT alternative, for enhanced productivity!
